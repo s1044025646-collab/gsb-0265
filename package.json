@@ -1,0 +1,2 @@
+{"name":"vigenere-lab","version":"1.0.0","private":true,"type":"module","scripts":{"build":"tsc -p tsconfig.json","test":"npm run build && node --test dist/test/core.test.js dist/test/chisquare.test.js","start":"npm run build && node dist/src/cli.js serve","demo":"npm run build && node dist/src/cli.js demo"},"dependencies":{},"devDependencies":{"typescript":"^5.5.0","@types/node":"^22.0.0"}}
+
